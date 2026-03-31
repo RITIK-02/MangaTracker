@@ -1,0 +1,8 @@
+backend/
+db/
+routes/
+services/
+models/
+utils/
+main.py
+requirements.txt
