@@ -30,7 +30,7 @@ app = FastAPI(lifespan=lifespan)
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # later restrict to frontend URL
+    allow_origins=["https://v3rc.vercel.app/"],  # later restrict to frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
